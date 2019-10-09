@@ -1,0 +1,36 @@
+
+ion-toolbar{
+    --background: #0D3C8D;
+  }
+  ion-title{
+    color: #D5D3E9;
+    text-align: center;
+  }
+  ion-list ,ion-item{
+    --ion-background-color: #134692;
+    color: #D5D3E9;
+  }
+  ion-slide {
+    display: block;
+  }
+  
+  h3 {
+    font-size: 30;
+    font-weight: lighter;
+    margin-bottom: 60px;
+  }
+  
+  img {
+    max-height: 200px;
+    background-size: 30px;
+    
+  }
+  @media screen and (max-height: 775px) {
+    
+        img {
+            width: 85%;
+        }}
+  
+  .slide-img-padding {
+    padding: 40px;
+  }
